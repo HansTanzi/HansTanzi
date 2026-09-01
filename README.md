@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @xiaoxstz. I'm experienced in many popular programming languages, especially **C#,Python**.
+- 👋 Hi, I’m Hans. I'm experienced in many popular programming languages, especially **C#,Python**.
 - 👀 I’m interested in latest technologies, programming trick and tools
 - 📫 anemone.42optics@icloud.com
 
