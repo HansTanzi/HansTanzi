@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @xiaoxstz. I'm experienced in many popular programming languages, especially **C#,Python,Matlab,C++**.
+- 👋 Hi, I’m @xiaoxstz. I'm experienced in many popular programming languages, especially **C#,Python**.
 - 👀 I’m interested in latest technologies, programming trick and tools
-- 📫 tanzitxws@126.com
+- 📫 anemone.42optics@icloud.com
 
 ![](https://github-readme-stats.vercel.app/api?username=xiaoxstz&show_icons=true&hide_title=true&theme=nightowl)
 <!---
