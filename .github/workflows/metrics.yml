@@ -1,0 +1,42 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GH_API_TOKEN }}
+          user: HansTanzi
+          filename: metrics.svg
+          output_action: none
+          base: header, activity, community, repositories
+          config_timezone: Asia/Shanghai
+
+      - name: Prepare site
+        run: |
+          mkdir -p _site
+          cp /metrics_renders/metrics.svg _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
