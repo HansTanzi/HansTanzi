@@ -1,9 +1,7 @@
-- 👋 Hi, I’m Hans. I'm experienced in many popular programming languages, especially **C#,Python**.
-- 👀 I’m interested in latest technologies, programming trick and tools
-- 📫 anemone.42optics@icloud.com
+### Hi, I'm Hans 👋
 
-![](https://github-readme-stats.vercel.app/api?username=HansTanzi&show_icons=true&hide_title=true&theme=nightowl)
-<!---
-xiaoxstz/xiaoxstz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I write software that drives real hardware: control and acquisition for holographic optical tweezers, laser processing, and confocal microscopy.
+For the past year I've also been building full-stack web apps.
+
+- 🧩 Side project: **[RestGuard](https://github.com/HansTanzi/RestGuard)**, a cross-platform break reminder that actually makes you rest (Rust, Tauri, Svelte)
+- 📫 handongtan@icloud.com * [LinkedIn](https://www.linkedin.com/in/handongtan/)
